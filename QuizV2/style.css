@@ -1,0 +1,125 @@
+@import url('https://fonts.google.com/css2?family=Poppins:wght@300&display=swap');
+
+
+body {
+  background-color: #001e4d;
+  font-family: 'Poppins',sans-serif;
+
+}
+
+.container {
+  margin: 50px auto;
+  padding: 20px;
+  width: 400px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  color: #001e4d;
+  border-bottom: 1px solid #001e4d;
+  text-align: center;
+  margin-bottom: 10px;
+  
+}
+
+#question-container {
+  margin-bottom: 20px;
+}
+
+#question-number {
+  font-weight: bold;
+}
+
+#question {
+ font-size: 20px;
+ margin-bottom: 5px;
+ color:#666;
+}
+
+#choices {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+pre {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  padding: 10px;
+  white-space: pre-wrap;
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+#choices li {
+  list-style: name;
+  margin-bottom: 10px;
+  border: 1px solid #00134d;
+  border-radius: 5px;
+  background: #ebebf9;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+label {
+  cursor: pointer;
+  flex: 1;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:disabled {
+ opacity: 0.5;
+ cursor: not-allowed;
+}
+
+
+#submitted {
+  margin: 50px auto;
+  padding: 20px;
+  width: 400px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+  color: #001e4d;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+
+}
+.time{
+  color: green;
+  text-align: right;
+
+}
+
+button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+button:focus {
+  outline: none;
+}
