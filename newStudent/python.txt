@@ -1,0 +1,9 @@
+              string  method 
+
+
+              capitalize()
+              lower()
+	      upper()
+             title()
+             swapcase()
+             replace()

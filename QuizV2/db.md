@@ -1,4 +1,5 @@
 step 1.{
+  
 	 create the database , 
 	table1 =>  questions (will contain the questions and related questions_optoins)
 	table2 => answers ( will contian the correct_answers and then conncet this table with the questions table 

@@ -1,0 +1,8 @@
+                          Project Structure:
+
+1. index.html: Frontend form to upload the DOC file.
+2. upload.php: Backend script to handle DOC file upload and data extraction.
+3. display_questions.php: Backend script to fetch and display questions from the database.
+4. database.php: Database configuration.
+5. uploads/: Directory to store uploaded DOC files.
+6. vendor/: Composer dependencies.
