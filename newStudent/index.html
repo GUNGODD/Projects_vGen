@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload DOC File</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload DOC File</h1>
+        <form action="upload.php" method="post" enctype="multipart/form-data">
+            <label for="docFile">
+                <i class="fas fa-file-upload"></i> Choose a DOC File
+            </label>
+            <input type="file" name="docFile" id="docFile" accept=".doc, .docx">
+            <br>
+            <input type="submit" value="Upload">
+        </form>
+    </div>
+</body>
+</html>

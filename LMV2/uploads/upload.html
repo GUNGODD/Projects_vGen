@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload DOCX</title>
+    <link rel="stylesheet" href="upload.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload DOCX File</h1>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <label class="file-label">
+                <input type="file" name="docFile" accept=".docx" required>
+                <span class="file-icon">📄</span> Choose a DOCX file
+            </label>
+            <button class="upload-button" type="submit">Upload</button>
+        </form>
+        <div class="upload-feedback" id="uploadFeedback"></div>
+    </div>
+    <script src="upload.js"></script>
+</body>
+</html>
